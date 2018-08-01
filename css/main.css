@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+body{
+    background-color: #f7f7f7;
+    font-family: 'Karla', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.page{
+    margin: 4em 0px;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+    background: #000000;
+    color: azure;
+    padding: 35px 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+.title, .sub-title {
+    text-align: center;
+}
+.sub-title{
+    font-weight: lighter;
+}
+.registration-form{
+    width: 30%;
+    margin: 0 auto;
+}
+.form-group {
+    display: flex;
+}
+div .col-half {
+    flex: 50%;
+}
+.input-field{
+    margin: 10px 0px;
+}
+label {
+    display: block;
+    font-weight: lighter;
+    padding: 5px 0;
+    font-weight: lighterl
+}
+input {
+    display: block !important;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d8d6d6;
+    width: 100%;
+    font-size: 16px;
+}
+
+#code {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d8d6d6;
+    width: 100%;
+    font-size: 16px;
+}
+select::-ms-expand {
+    display: none;
+}
+.input-left{
+    display: inline-block;
+    flex: 20%;
+}
+.input-right {
+    display: inline-block;
+    flex: 80%;
+}
+input[type=submit] {
+    background: #468cfc;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.terms {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .registration-form{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .registration-form{
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+}
