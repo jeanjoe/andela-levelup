@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="css/main.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font.css">
     </head>
     <body>
         <div class="page">
@@ -19,16 +20,20 @@
                             <input type="text" placeholder="First name" name="firstname">
                         </div>
                         <div class="col-half">
-                            <label for="lastname">Surname (required)</label>
+                            <label for="lastname">Last name (required)</label>
                             <input type="text" placeholder="Last name" name="lastname">
                         </div>
                     </div>
-                    <div class="input-field">
+                    <div class="input-field margin-top">
                         <label for="phonenumber">Enter your phone number (required)</label>
                         <div class="form-group">
                             <div class="input-left">
                                 <select name="code" id="code">
-                                    <option value="UG">256</option>
+                                    <option role="option" value="254">+254     Kenya</option>
+                                    <option role="option" value="255">+255     Tanzania</option>
+                                    <option role="option" selected value="256">+256     Uganda</option>
+                                    <option role="option" value="257">+257     Burundi</option>
+                                    <option role="option" value="258">+258     Mozambique</option>
                                 </select>
                             </div>
                             <div class="input-right">
@@ -36,16 +41,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="input-field">
+                    <div class="input-field margin-top">
                         <label for="email">Enter your email address (required)</label>
                         <input type="email" name="email" placeholder="Email">
                     </div>
-                    <div class="input-field">
+                    <div class="input-field margin-top">
                         <label for="password">Enter a password (required) </label>
                         <input type="password" name="password" placeholder="Password">
                     </div>
-                    <p><a href="#">Add a promo code</a></p>
-                    <div class="submit">
+                    <div class="margin-top">
+                        <a href="#">Add a promo code</a>
+                    </div>
+                    <div class="submit margin-top">
                         <input type="submit" class="button" value="Sign Up">
                     </div>
                     <p class="terms">By clicking "Sign up", you agree to Uber's <a href="#">Terms of Use</a> and acknowledge you have read the <a href="#">Privacy Policy.</a></p>

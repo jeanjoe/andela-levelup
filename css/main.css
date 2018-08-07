@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
     background-color: #f7f7f7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ff-clan-web-pro', sans-serif;
 }
 a {
     text-decoration: none;
@@ -15,21 +14,24 @@ a {
     margin: 0 auto;
     background: #000000;
     color: azure;
-    padding: 30px 0px !important;
+    padding: 35px 0px !important;
     text-align: center;
-    font-weight: bolder;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 22px;
 }
-.title, .sub-title {
+.title {
+    font-weight: 400 !important;
     text-align: center;
 }
 .sub-title{
-    font-weight: lighter;
+    font-weight: 300;
+    text-align: center;
 }
 .registration-form{
     margin: auto;
     width: 35%;
     padding: 10px;
+    box-sizing:border-box;
 }
 .form-group, .button {
     padding: 0;
@@ -48,24 +50,27 @@ a {
 div .col-half {
     width: 49%;
 }
-.input-field{
-    margin: 5px 0px;
+.margin-top{
+    margin: 20px 0px;
 }
+
 label {
     display: block;
-    font-weight: lighter;
+    font-weight: 500;
+    font-size: 12px;
     padding: 5px 0;
-    font-weight: lighter;
 }
 input {
     display: block;
-    padding: 10px;
+    padding: 15px;
     background: #fff;
     border: 1px solid #d8d6d6;
     width: 100%;
     margin: 0;
-    font-size: 16px;
-    box-sizing:border-box
+    font-size: 18px;
+    font-weight: 400 !important;
+    box-sizing:border-box;
+    font-family: 'ff-clan-web-pro', sans-serif;
 }
 
 #code {
@@ -75,16 +80,25 @@ input {
     width: 100%;
     font-size: 16px;
 }
-select::-ms-expand {
-    display: none;
+select {
+    display: block;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #d8d6d6;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400 !important;
+    box-sizing:border-box;
+    font-family: 'ff-clan-web-pro', sans-serif;
 }
 .input-left{
     display: inline-block;
-    flex: 20%;
+    flex: 18%;
 }
 .input-right {
     display: inline-block;
-    flex: 80%;
+    flex: 82%;
 }
 .submit {
     clear: both;
