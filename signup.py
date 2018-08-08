@@ -36,10 +36,10 @@ class SignUp(object):
 
             return True
 
-
-first_name = input("Enter First name: \t")
-last_name = input("Enter Last name: \t")
-email = input("Enter valid email address: \t")
-
-signup = SignUp(first_name, last_name, email)
-print("Output: " + signup.submit())
+#
+# first_name = input("Enter First name: \t")
+# last_name = input("Enter Last name: \t")
+# email = input("Enter valid email address: \t")
+#
+# signup = SignUp(first_name, last_name, email)
+# print("Output: " + signup.submit())
