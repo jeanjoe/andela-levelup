@@ -42,10 +42,10 @@ class SignUp(object):
     @staticmethod
     def validate_phone_number(phonenumber):
 
-        rule = re.compile(r'(^[+0-9]{1,3})*([0-9]{10,11}$)')
+        rule = re.compile(r'/^[0-9]{10,14}$/')
 
-        if not rule.search(phonenumber):
-            return False
+        if not rule(phonenumber):
+            return  False
         else:
             return True
 
