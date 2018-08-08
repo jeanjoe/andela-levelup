@@ -73,32 +73,26 @@ input {
     font-family: 'ff-clan-web-pro', sans-serif;
 }
 
-#code {
-    padding: 10px;
-    background: #fff;
-    border: 1px solid #d8d6d6;
-    width: 100%;
-    font-size: 16px;
-}
-select {
+#country-code {
     display: block;
     padding: 15px;
     background: #fff;
     border: 1px solid #d8d6d6;
     width: 100%;
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400 !important;
     box-sizing:border-box;
+    -webkit-appearance:none;
     font-family: 'ff-clan-web-pro', sans-serif;
 }
 .input-left{
     display: inline-block;
-    flex: 18%;
+    flex: 21%;
 }
 .input-right {
     display: inline-block;
-    flex: 82%;
+    flex: 79%;
 }
 .submit {
     clear: both;
@@ -109,12 +103,14 @@ input[type=submit] {
     display: block;
     width: 100%;
     border: none;
-    background-color: #4CAF50;
-    padding: 14px 10px;
-    font-size: 16px;
+    background-color: #00838F;
+    padding: 16px 10px;
+    font-size: 18px;
+    font-weight: bolder;
     cursor: pointer;
     color: #fff;
     text-align: start;
+    text-transform: uppercase;
 }
 
 .terms {
