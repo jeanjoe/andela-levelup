@@ -13,6 +13,9 @@ class TestSignUp(unittest.TestCase):
     def test_email(self):
         self.assertTrue(signupClass.validate_email('manzede@gmail.com'), True)
 
+    def test_valid_phone(self):
+        self.assertTrue(signupClass.validate_phone_number('256773969641'), True)
+
 
 if __name__ == '__main__':
     unittest.main()
