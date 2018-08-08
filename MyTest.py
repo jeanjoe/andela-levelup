@@ -2,16 +2,16 @@ import unittest
 
 import signup
 
-signupClass = signup.SignUp('Manzede', 'Benardfhf', 'manzede@gmail.com')
+signupClass = signup.SignUp('Manzede', 'Benard', 'manzede@gmail.com')
 
 
 class TestSignUp(unittest.TestCase):
 
     def test_name(self):
-        self.assertEqual(signupClass.combine_name(), 'Manzede Benard')
+        self.assertEqual(signupClass.full_name(), 'Manzede Benard')
 
     def test_email(self):
-        self.assertTrue(signupClass.validate_email('manzedegmail.com'), True)
+        self.assertTrue(signupClass.validate_email('manzede@gmail.com'), True)
 
 
 if __name__ == '__main__':
