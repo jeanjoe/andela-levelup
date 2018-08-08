@@ -8,17 +8,21 @@ class SignUp(object):
         self.last_name = last_name
         self.email = email
 
-    def combine_name(self):
+    def full_name(self):
 
         fullname = self.first_name + " " + self.last_name
 
         return fullname
 
+    def phone_number(self):
+
+        return
+
     def submit(self):
 
         if self.validate_email(self.email):
 
-            return self.combine_name()
+            return self.full_name()
 
         else:
             return "Invalid Email address"
@@ -34,6 +38,15 @@ class SignUp(object):
 
         else:
 
+            return True
+    @staticmethod
+    def validate_phone_number(phonenumber):
+
+        rule = re.compile(r'(^[+0-9]{1,3})*([0-9]{10,11}$)')
+
+        if not rule.search(phonenumber):
+            return False
+        else:
             return True
 
 #
