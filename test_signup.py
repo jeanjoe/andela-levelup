@@ -36,11 +36,11 @@ class SignUp(object):
             return False
         return True
 
-
+#
 # first_name = input("Enter First name: \t")
 # last_name = input("Enter Last name: \t")
 # email = input("Enter valid email address: \t")
 # phone = input("Enter valid phone number: \t")
-
+#
 # signup = SignUp(first_name, last_name, email, phone)
 # print(signup.submit())
