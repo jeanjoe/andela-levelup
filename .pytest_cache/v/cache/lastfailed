@@ -1,1 +1,3 @@
-{}
+{
+  "test_signup.py::TestSignUp": true
+}
